@@ -41,7 +41,7 @@ def getDistinctPermutations(nums):
 if __name__ == '__main__':
     visited = [False]*(5)
     ans,curr = [], []
-    nums = [-1,0,1]
+    nums = [1,2,3]
  
     
     getDistinctPermutations(nums)

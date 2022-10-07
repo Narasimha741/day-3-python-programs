@@ -15,7 +15,7 @@ def minJumps(arr, l, h):
     return min
  
 
-arr = [6,5,8,9]
+arr = [1,1,1,1,1,1,1,1,1,1]
 n = len(arr)
 print('Minimum number of jumps to reach',
       'end is', minJumps(arr, 0, n-1))
